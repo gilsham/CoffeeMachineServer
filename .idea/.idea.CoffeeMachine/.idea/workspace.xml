@@ -8,23 +8,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4fa0512-e563-4f06-b750-da275b56f856" name="Changes" comment="add tests">
-      <change afterPath="$PROJECT_DIR$/CoffeeMachineServer/API/CoffeeMachineEndpoints.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CoffeeMachineServer/Extensions/IEnumerableSelectRandom.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CoffeeMachineServer/Fixtures/CoffeeMachineServer.Test.Fixture.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CoffeeMachineServer/Fixtures/TestWebApplicationFactory.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CoffeeMachineServer/Interfaces/ICoffeeMachineService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CoffeeMachineServer/Interfaces/IDateTimeService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CoffeeMachineServer/Interfaces/IWeatherApiService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CoffeeMachineServer/Services/DateTimeService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CoffeeMachineServer/Services/OpenWeatherApiService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CoffeeMachine/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CoffeeMachine/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoffeeMachineServer/CoffeeMachineServer.Test.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeMachineServer/CoffeeMachineServer.Test.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoffeeMachineServer/CoffeeMachineServer.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeMachineServer/CoffeeMachineServer.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoffeeMachineServer/Interfaces/CoffeeMachineInterface.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeMachineServer/Services/CoffeeMachineService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoffeeMachineServer/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeMachineServer/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoffeeMachineServer/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeMachineServer/appsettings.json" afterDir="false" />
-    </list>
+    <list default="true" id="b4fa0512-e563-4f06-b750-da275b56f856" name="Changes" comment="update settings" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,6 +21,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/.nuget/packages/microsoft.net.test.sdk/17.13.0/build/netcoreapp3.1/Microsoft.NET.Test.Sdk.Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/255f916e5a2d424ef01b291afc761e049b367614440bf4b216824ec479064b/WebApplicationFactory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/4c38112676b82651f48df265c80acbd883522b6ae8de1e6e629d5b599197c/ConfigurationBinder.cs" root0="FORCE_HIGHLIGHTING" />
@@ -47,8 +33,11 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c439425da351c75ac7d966a1cc8324b51a9c471865af79d2f2f3fcb65e392/HttpClient.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock://G:/projects/CoffeeMachine/CoffeeMachine/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://G:/projects/CoffeeMachine/CoffeeMachine/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://G:/projects/CoffeeMachine/CoffeeMachineServer/CoffeeMachineServer.Test.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CoffeeMachineServer/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://G:/projects/CoffeeMachine/CoffeeMachineServer/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CoffeeMachineServer/Utils/EnumMonths.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://G:/projects/CoffeeMachine/CoffeeMachineServer/appsettings.json" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -115,7 +104,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1745807639360</updated>
-      <workItem from="1745807641173" duration="47575000" />
+      <workItem from="1745807641173" duration="49109000" />
     </task>
     <task id="LOCAL-00001" summary="Add coffee machine class">
       <option name="closed" value="true" />
@@ -189,7 +178,55 @@
       <option name="project" value="LOCAL" />
       <updated>1745811521219</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="switch to DI services">
+      <option name="closed" value="true" />
+      <created>1745885579958</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1745885579958</updated>
+    </task>
+    <task id="LOCAL-00011" summary="update workspace">
+      <option name="closed" value="true" />
+      <created>1745885595815</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1745885595815</updated>
+    </task>
+    <task id="LOCAL-00012" summary="add tests">
+      <option name="closed" value="true" />
+      <created>1745885628359</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1745885628359</updated>
+    </task>
+    <task id="LOCAL-00013" summary="add api settings">
+      <option name="closed" value="true" />
+      <created>1745885646456</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1745885646456</updated>
+    </task>
+    <task id="LOCAL-00014" summary="split out endpoints">
+      <option name="closed" value="true" />
+      <created>1745885658994</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1745885658994</updated>
+    </task>
+    <task id="LOCAL-00015" summary="update settings">
+      <option name="closed" value="true" />
+      <created>1745885668670</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1745885668670</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,90 +241,90 @@
       <expand>
         <path>
           <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 5% 232/244" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Total 5% 233/245" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
         </path>
         <path>
           <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 5% 232/244" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="CoffeeMachineServer 5% 232/244" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Total 5% 233/245" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="CoffeeMachineServer 5% 233/245" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
         </path>
         <path>
           <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 5% 232/244" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="CoffeeMachineServer 5% 232/244" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="CoffeeMachineServer 5% 215/227" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Total 5% 233/245" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="CoffeeMachineServer 5% 233/245" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="CoffeeMachineServer 5% 216/228" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
         </path>
         <path>
           <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 5% 232/244" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="CoffeeMachineServer 5% 232/244" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="CoffeeMachineServer 5% 215/227" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Total 5% 233/245" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="CoffeeMachineServer 5% 233/245" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="CoffeeMachineServer 5% 216/228" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
           <item name="TestWeatherApiService 17% 5/6" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
         </path>
         <path>
           <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 5% 232/244" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="CoffeeMachineServer 5% 232/244" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="CoffeeMachineServer 5% 215/227" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Total 5% 233/245" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="CoffeeMachineServer 5% 233/245" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="CoffeeMachineServer 5% 216/228" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
           <item name="TestWeatherApiService 17% 5/6" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
           <item name="CurrentTemperature 0% 2/2" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
         </path>
         <path>
           <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 5% 232/244" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="CoffeeMachineServer 5% 232/244" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="CoffeeMachineServer 5% 215/227" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Total 5% 233/245" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="CoffeeMachineServer 5% 233/245" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="CoffeeMachineServer 5% 216/228" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
           <item name="Fixtures 16% 31/37" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
         </path>
         <path>
           <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 5% 232/244" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="CoffeeMachineServer 5% 232/244" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="CoffeeMachineServer 5% 215/227" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Total 5% 233/245" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="CoffeeMachineServer 5% 233/245" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="CoffeeMachineServer 5% 216/228" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
           <item name="Fixtures 16% 31/37" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
           <item name="CoffeeMachineServerTestFixture 60% 4/10" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
         </path>
         <path>
           <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 5% 232/244" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="CoffeeMachineServer 5% 232/244" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="CoffeeMachineServer 5% 215/227" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Total 5% 233/245" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="CoffeeMachineServer 5% 233/245" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="CoffeeMachineServer 5% 216/228" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
           <item name="Fixtures 16% 31/37" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
           <item name="CoffeeMachineServerTestFixture 60% 4/10" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
           <item name="GetTestAppSettings() 67% 1/3" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
         </path>
         <path>
           <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 5% 232/244" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="CoffeeMachineServer 5% 232/244" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="CoffeeMachineServer 5% 215/227" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Total 5% 233/245" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="CoffeeMachineServer 5% 233/245" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="CoffeeMachineServer 5% 216/228" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
           <item name="CoffeeMachineServerTest 13% 20/23" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
         </path>
         <path>
           <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 5% 232/244" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="CoffeeMachineServer 5% 232/244" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="CoffeeMachineServer 5% 215/227" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Total 5% 233/245" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="CoffeeMachineServer 5% 233/245" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="CoffeeMachineServer 5% 216/228" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
           <item name="Services 4% 47/49" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
         </path>
         <path>
           <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 5% 232/244" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="CoffeeMachineServer 5% 232/244" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="CoffeeMachineServer 5% 215/227" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Total 5% 233/245" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="CoffeeMachineServer 5% 233/245" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="CoffeeMachineServer 5% 216/228" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
           <item name="Services 4% 47/49" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
           <item name="CoffeeMachineService 25% 6/8" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
         </path>
         <path>
           <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 5% 232/244" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="CoffeeMachineServer 5% 232/244" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Total 5% 233/245" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="CoffeeMachineServer 5% 233/245" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
           <item name="Program 0% 16/16" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
         </path>
         <path>
           <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 5% 232/244" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="CoffeeMachineServer 5% 232/244" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Total 5% 233/245" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="CoffeeMachineServer 5% 233/245" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
           <item name="CoffeeMachineStatus 0% 1/1" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
         </path>
       </expand>
@@ -304,40 +341,15 @@
     <MESSAGE value="renaming" />
     <MESSAGE value="move coffee machine class" />
     <MESSAGE value="month enum" />
+    <MESSAGE value="switch to DI services" />
+    <MESSAGE value="update workspace" />
     <MESSAGE value="add tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="add tests" />
+    <MESSAGE value="add api settings" />
+    <MESSAGE value="split out endpoints" />
+    <MESSAGE value="update settings" />
+    <option name="LAST_COMMIT_MESSAGE" value="update settings" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/CoffeeMachineServer/API/CoffeeMachineEndpoints.cs</url>
-          <line>12</line>
-          <properties documentPath="G:\projects\CoffeeMachine\CoffeeMachineServer\API\CoffeeMachineEndpoints.cs" containingFunctionPresentation="Lambda expression inside Method 'MapCoffeeMachineEndpoints'">
-            <startOffsets>
-              <option value="360" />
-            </startOffsets>
-            <endOffsets>
-              <option value="521" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/CoffeeMachineServer/CoffeeMachineServer.Test.cs</url>
-          <line>140</line>
-          <properties documentPath="G:\projects\CoffeeMachine\CoffeeMachineServer\CoffeeMachineServer.Test.cs" containingFunctionPresentation="Method 'GetUniqueKey'">
-            <startOffsets>
-              <option value="4924" />
-            </startOffsets>
-            <endOffsets>
-              <option value="4980" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="LaunchSettings">
         <watch expression="new System.Threading.Tasks.SystemThreadingTasks_FutureDebugView&lt;System.Net.Http.HttpResponseMessage&gt;(response).Result" />
