@@ -1,11 +1,18 @@
+using CoffeeMachineServer.API;
 using CoffeeMachineServer.Interfaces;
+using CoffeeMachineServer.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
-builder.Services.AddSingleton<CoffeeMachineInterface>();
+var options = builder.Configuration.GetSection("OpenWeatherAPIOptions");
+builder.Services.Configure<OpenWeatherApiService.APIOptions>(options);
+builder.Services.AddHttpClient();
+builder.Services.AddSingleton<IWeatherApiService, OpenWeatherApiService>();
+builder.Services.AddSingleton<ICoffeeMachineService, CoffeeMachineService>();
+builder.Services.AddTransient<IDateTimeService, DateTimeService>();
 
 var app = builder.Build();
 
@@ -15,34 +22,14 @@ if (app.Environment.IsDevelopment())
     app.MapOpenApi();
 }
 
+app.MapGroup("")
+    .MapCoffeeMachineEndpoints()
+    .WithName("CoffeeMachine");
+
 app.UseHttpsRedirection();
 
-app.MapGet("/brew-coffee", () =>
-    {
-        if (DateTime.Today.Month == (int)Month.April && DateTime.Today.Day == 1)
-            return Results.StatusCode(StatusCodes.Status418ImATeapot);
-        
-        var coffeeMachine = app.Services.GetService<CoffeeMachineInterface>();
-        if (coffeeMachine == null)
-            return Results.InternalServerError();
-
-        return coffeeMachine.TryBrewCoffee() switch
-        {
-            CoffeeMachineInterface.Status.Empty
-                => Results.StatusCode(StatusCodes.Status503ServiceUnavailable),
-            
-            CoffeeMachineInterface.Status.Brewing
-                => Results.Ok(
-                    new CoffeeMachineStatus(
-                        "Your piping hot coffee is ready",
-                        DateTime.Now
-                    )),
-            
-            _ => Results.InternalServerError()
-        };
-    })
-    .WithName("GetBrewCoffee");
-
 app.Run();
+
+public partial class Program { }
 
 internal record CoffeeMachineStatus(string Message, DateTime Prepared);
